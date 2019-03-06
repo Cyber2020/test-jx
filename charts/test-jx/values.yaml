@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 284272059870.dkr.ecr.us-east-1.amazonaws.com/cyber2020/test-jx
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: test-jx
